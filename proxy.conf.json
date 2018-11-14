@@ -1,0 +1,11 @@
+{
+	"/backend-server": {
+		"target": "http://192.168.22.10",
+		"secure": false,
+    "changeOrigin": true,
+    "logLevel": "debug",
+    "pathRewrite": {
+      "^/backend-server" : ""
+    }
+	}
+}

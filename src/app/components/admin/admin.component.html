@@ -1,0 +1,16 @@
+<div class="container">
+  <table class="table table-bordered table-inverse">
+    <tr>
+      <th>Pin Type</th>
+      <th>Pin ID</th>
+    </tr>
+    <tr *ngFor="let pin of pins">
+      <td>
+        {{pin.type}}
+      </td>
+      <td>
+        {{pin.id}}
+      </td>
+    </tr>
+  </table>
+</div>
