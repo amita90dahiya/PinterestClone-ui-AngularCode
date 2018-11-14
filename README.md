@@ -170,6 +170,38 @@ export class PinService {
 ### Router
 Add `app-component.ts` in `<router-outlet></router-outlet>`
 
+### Testing
+
+
+~~~~
+npm start
+
+  pin-ui@0.0.0 start /Volumes/Data/TO_TRANSFER/AmitaInterview/pinterest-ui
+  ng serve --proxy-config proxy.conf.json
+
+** NG Live Development Server is listening on localhost:4200, open your browser on http://localhost:4200/ **
+10% building modules 3/3 modules 0 active[HPM] Proxy created: /backend-server  ->  http://192.168.22.10
+[HPM] Proxy rewrite rule created: "^/backend-server" ~> ""
+[HPM] Subscribed to http-proxy events:  [ 'error', 'close' ]
+Date: 2018-11-14T13:28:31.018Z
+Hash: 27432a969f76fe284349
+Time: 4470ms
+chunk {inline} inline.bundle.js (inline) 5.79 kB [entry] [rendered]
+chunk {main} main.bundle.js (main) 33.7 kB [initial] [rendered]
+chunk {polyfills} polyfills.bundle.js (polyfills) 570 kB [initial] [rendered]
+chunk {styles} styles.bundle.js (styles) 34.2 kB [initial] [rendered]
+chunk {vendor} vendor.bundle.js (vendor) 9.56 MB [initial] [rendered]
+
+webpack: Compiled successfully.
+webpack: Compiling...
+Date: 2018-11-14T13:28:31.497Z - Hash: b1b7f9d3a2deba313517 - Time: 159ms
+5 unchanged chunks
+
+webpack: Compiled successfully.
+[HPM] Rewriting path from "/backend-server/api/pin" to "/api/pin"
+[HPM] GET /backend-server/api/pin ~> http://192.168.22.10
+
+~~~~
 
 ## Code scaffolding
 
